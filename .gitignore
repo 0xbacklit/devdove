@@ -1,0 +1,74 @@
+############################
+# Frontend (Next.js)
+############################
+
+# dependencies
+frontend/node_modules/
+frontend/.pnp/
+frontend/.pnp.*
+frontend/.yarn/*
+!frontend/.yarn/patches
+!frontend/.yarn/plugins
+!frontend/.yarn/releases
+!frontend/.yarn/versions
+
+# testing
+frontend/coverage/
+
+# next.js
+frontend/.next/
+frontend/out/
+
+# production
+frontend/build/
+
+# misc
+.DS_Store
+frontend/*.pem
+
+# debug
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/.pnpm-debug.log*
+
+# vercel
+frontend/.vercel/
+
+# typescript
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+
+############################
+# Backend (Python / FastAPI)
+############################
+
+# Python bytecode
+backend/__pycache__/
+backend/**/*.py[cod]
+
+# Virtual environments
+backend/.venv/
+backend/venv/
+
+# Packaging / build artifacts
+backend/build/
+backend/dist/
+backend/*.egg-info/
+
+# Test & tooling caches
+backend/.pytest_cache/
+backend/.mypy_cache/
+backend/.ruff_cache/
+backend/.coverage
+
+# Logs (if any)
+backend/*.log
+
+
+
+# env files
+.env*
+!.env.example
+
